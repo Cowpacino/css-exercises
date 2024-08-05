@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 html, body {
   height: 100vh;
@@ -31,7 +36,7 @@ input {
 
 a {
   text-decoration: none;
-  color: grey;
+  color: #666;
 }
 
 ul {
@@ -45,17 +50,19 @@ ul {
 
 .left-links {
   display: flex;
-  gap: 10px
+  gap: 16px;
+  margin: 16px;
 }
 
 .right-links {
   display: flex;
-  gap: 10px;
-  margin-right: 10px;
+  gap: 16px;
+  margin: 16px;
 }
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   text-align: center;
